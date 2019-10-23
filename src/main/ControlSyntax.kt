@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
         "xは0以外"
     }
     // 一文で書ける場合は、ブロックを省略できる
-    val z = if (x == 0) "xは0" else if (x == 100) "xは100" else "xは0以外"
+    val z = if (x == 0) "xは0" else if (x == 100) "xは100" else "xは0か100以外"
 
 
 
